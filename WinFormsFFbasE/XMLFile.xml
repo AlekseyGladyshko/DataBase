@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Client>
+    <ID>3</ID>
+    <Column2>Виталик</Column2>
+    <Column3>feniks@ukr.net</Column3>
+    <Column6>SpaceX</Column6>
+    <Column7>Космонавт</Column7>
+    <Column8>Нету</Column8>
+    <Column9>Полететь на Марс</Column9>
+    <Column10>3</Column10>
+  </Client>
+  <Client>
+    <ID>9</ID>
+    <Column2>Владик</Column2>
+    <Column3>email@ukr.net</Column3>
+    <Column6>YouTube</Column6>
+    <Column7>Анимешник</Column7>
+    <Column9>Защита конохи</Column9>
+    <Column10>5</Column10>
+  </Client>
+  <Client/>
+</NewDataSet>

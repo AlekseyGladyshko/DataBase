@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<FFbasEDataSet xmlns="http://tempuri.org/FFbasEDataSet.xsd">
+  <CLIENT>
+    <C_ID>1</C_ID>
+    <C_NAME>Леша</C_NAME>
+    <C_EMAIL>email@gmail.com</C_EMAIL>
+    <C_PHONE>+38(073)4241887     </C_PHONE>
+    <C_POST>Студент</C_POST>
+    <C_EXPERIENCE>Небольшой</C_EXPERIENCE>
+    <C_SG>2</C_SG>
+  </CLIENT>
+  <CLIENT>
+    <C_ID>2</C_ID>
+    <C_NAME>Богдан</C_NAME>
+    <C_EMAIL>body@mail.ru</C_EMAIL>
+    <C_PHONE>0639897545          </C_PHONE>
+    <C_COMPANY>ЛунЮА</C_COMPANY>
+    <C_POST>Парсер</C_POST>
+    <C_EXPERIENCE>Месяц</C_EXPERIENCE>
+    <C_SG>4</C_SG>
+  </CLIENT>
+  <CLIENT>
+    <C_ID>3</C_ID>
+    <C_NAME>Виталик</C_NAME>
+    <C_EMAIL>feniks@ukr.net</C_EMAIL>
+    <C_COMPANY>SpaceX</C_COMPANY>
+    <C_POST>Космонавт</C_POST>
+    <C_EXPERIENCE>Нету</C_EXPERIENCE>
+    <C_INTERESTS>Полететь на Марс</C_INTERESTS>
+    <C_SG>3</C_SG>
+  </CLIENT>
+  <CLIENT>
+    <C_ID>9</C_ID>
+    <C_NAME>Владик</C_NAME>
+    <C_EMAIL>email@ukr.net</C_EMAIL>
+    <C_COMPANY>YouTube</C_COMPANY>
+    <C_POST>Анимешник</C_POST>
+    <C_INTERESTS>Защита конохи</C_INTERESTS>
+    <C_SG>5</C_SG>
+  </CLIENT>
+</FFbasEDataSet>

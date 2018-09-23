@@ -1,0 +1,7 @@
+C:\Users\HP-ENVY\source\repos\WinFormsFFbasE\FFbasEData\bin\Debug\FFbasEData.dll.config
+C:\Users\HP-ENVY\source\repos\WinFormsFFbasE\FFbasEData\bin\Debug\FFbasEData.dll
+C:\Users\HP-ENVY\source\repos\WinFormsFFbasE\FFbasEData\bin\Debug\FFbasEData.pdb
+C:\Users\HP-ENVY\source\repos\WinFormsFFbasE\FFbasEData\obj\Debug\FFbasEData.csprojResolveAssemblyReference.cache
+C:\Users\HP-ENVY\source\repos\WinFormsFFbasE\FFbasEData\obj\Debug\FFbasEData.csproj.CoreCompileInputs.cache
+C:\Users\HP-ENVY\source\repos\WinFormsFFbasE\FFbasEData\obj\Debug\FFbasEData.dll
+C:\Users\HP-ENVY\source\repos\WinFormsFFbasE\FFbasEData\obj\Debug\FFbasEData.pdb

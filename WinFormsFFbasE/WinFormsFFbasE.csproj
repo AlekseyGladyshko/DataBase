@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C8129AE4-F28A-4267-95B7-3B563DA06C63}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WinFormsFFbasE</RootNamespace>
+    <AssemblyName>WinFormsFFbasE</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FFbasEDataSet.cs">
+      <DependentUpon>FFbasEDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FFbasEDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FFbasEDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="filterClientFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="filterClientFrm.Designer.cs">
+      <DependentUpon>filterClientFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddClient.Designer.cs">
+      <DependentUpon>FrmAddClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddCourseOfLecture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddCourseOfLecture.Designer.cs">
+      <DependentUpon>FrmAddCourseOfLecture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddEvent.Designer.cs">
+      <DependentUpon>FrmAddEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddStatus.Designer.cs">
+      <DependentUpon>FrmAddStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddStudent.Designer.cs">
+      <DependentUpon>FrmAddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFFbasE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFFbasE.Designer.cs">
+      <DependentUpon>FrmFFbasE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFilterCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFilterCourse.Designer.cs">
+      <DependentUpon>FrmFilterCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFilterEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFilterEvent.Designer.cs">
+      <DependentUpon>FrmFilterEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="filterClientFrm.resx">
+      <DependentUpon>filterClientFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddClient.resx">
+      <DependentUpon>FrmAddClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddCourseOfLecture.resx">
+      <DependentUpon>FrmAddCourseOfLecture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddEvent.resx">
+      <DependentUpon>FrmAddEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddStatus.resx">
+      <DependentUpon>FrmAddStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddStudent.resx">
+      <DependentUpon>FrmAddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFFbasE.resx">
+      <DependentUpon>FrmFFbasE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFilterCourse.resx">
+      <DependentUpon>FrmFilterCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFilterEvent.resx">
+      <DependentUpon>FrmFilterEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="FFbasEDataSet.xsc">
+      <DependentUpon>FFbasEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FFbasEDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FFbasEDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FFbasEDataSet.xss">
+      <DependentUpon>FFbasEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XMLFile.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
